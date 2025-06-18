@@ -1,0 +1,41 @@
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+div{
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    font-size: 60px;
+}
+button{
+    font-weight: 900;
+    background-color: blue;
+    color: white;
+    border:  1px blue solid;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+}
+#on{
+    margin-top: 50px;
+}
+@media screen and (max-width:600px){
+    h1{
+        font-size: 30px;
+    }
+    img{
+        margin-top: 50px;
+        height: 200px;
+        width: 200px;
+    }
+    button{
+        width: 150px;
+    }
+}
